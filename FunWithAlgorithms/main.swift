@@ -11,5 +11,5 @@ import Foundation
 let array = [7,3,1,4,0,2,9]
 let stringArray = ["a", "u", "q", "p", "s", "b", "c"]
 
-let sortedArray = quicksort(array)
+let sortedArray = heapsort(array, <)
 print(sortedArray)
