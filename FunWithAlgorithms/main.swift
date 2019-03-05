@@ -13,3 +13,13 @@ let stringArray = ["a", "u", "q", "p", "s", "b", "c"]
 
 let sortedArray = heapsort(array, <)
 print(sortedArray)
+
+
+let redBlackTree = RedBlackTree<Int>()
+for item in array {
+    redBlackTree.insert(key: item)
+}
+
+print(twoSumProblem(array, k: 11) as Any)
+
+print(threeSum(array, k: 17))

@@ -16,6 +16,8 @@
 		7B0D036B222C155C003BECB7 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D036A222C155C003BECB7 /* QuickSort.swift */; };
 		7B0D036E222C2196003BECB7 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D036D222C2196003BECB7 /* Heap.swift */; };
 		7B0D0370222C21DF003BECB7 /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D036F222C21DF003BECB7 /* HeapSort.swift */; };
+		7B0D0376222D2F0F003BECB7 /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0375222D2F0F003BECB7 /* RedBlackTree.swift */; };
+		7B0D0378222D38E3003BECB7 /* SumAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0377222D38E3003BECB7 /* SumAlgorithms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,8 @@
 		7B0D036A222C155C003BECB7 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		7B0D036D222C2196003BECB7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		7B0D036F222C21DF003BECB7 /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		7B0D0375222D2F0F003BECB7 /* RedBlackTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
+		7B0D0377222D38E3003BECB7 /* SumAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumAlgorithms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				7B0D0357222BB212003BECB7 /* main.swift */,
+				7B0D0377222D38E3003BECB7 /* SumAlgorithms.swift */,
 				7B0D0371222C2209003BECB7 /* Trees */,
 				7B0D035E222BB252003BECB7 /* SortAlgorithms */,
 			);
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				7B0D036C222C217F003BECB7 /* Heap */,
+				7B0D0375222D2F0F003BECB7 /* RedBlackTree.swift */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -178,10 +184,12 @@
 				7B0D0369222BE837003BECB7 /* MergeSort.swift in Sources */,
 				7B0D0367222BDE87003BECB7 /* ShellSort.swift in Sources */,
 				7B0D036B222C155C003BECB7 /* QuickSort.swift in Sources */,
+				7B0D0376222D2F0F003BECB7 /* RedBlackTree.swift in Sources */,
 				7B0D036E222C2196003BECB7 /* Heap.swift in Sources */,
 				7B0D0363222BB629003BECB7 /* InsertionSort.swift in Sources */,
 				7B0D0360222BB279003BECB7 /* SelectionSort.swift in Sources */,
 				7B0D0358222BB212003BECB7 /* main.swift in Sources */,
+				7B0D0378222D38E3003BECB7 /* SumAlgorithms.swift in Sources */,
 				7B0D0370222C21DF003BECB7 /* HeapSort.swift in Sources */,
 				7B0D0365222BB9A4003BECB7 /* BubbleSort.swift in Sources */,
 			);
